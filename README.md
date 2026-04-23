@@ -1,19 +1,19 @@
 
-## 📌 Project Description
+##  Project Description
 
 A RESTful Library Management API built with **Python FastAPI** for Limkokwing University Sierra Leone. The system manages the full book lifecycle — from cataloguing new arrivals to tracking loans, returns, and overdue penalties — while supporting multiple concurrent users through asynchronous request handling.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📚 Browse the full book catalogue with genre and availability filters
-- ➕ Add new books to the catalogue (staff use)
-- 🔖 Issue book loans with automatic 14-day due dates
-- 🔄 Process returns with automatic penalty calculation ($0.75/day)
-- 💰 Generate outstanding fines report for administrators
-- ⚡ Asynchronous request handling for concurrent user support
-- ✅ Strict type validation using Pydantic models
+-  Browse the full book catalogue with genre and availability filters
+-  Add new books to the catalogue (staff use)
+-  Issue book loans with automatic 14-day due dates
+-  Process returns with automatic penalty calculation ($0.75/day)
+-  Generate outstanding fines report for administrators
+-  Asynchronous request handling for concurrent user support
+-  Strict type validation using Pydantic models
 
 ---
 
@@ -61,7 +61,7 @@ uvicorn main:app --reload
 
 ---
 
-## 📖 Interactive Docs
+##  Interactive Docs
 
 After starting the server, visit:
 
@@ -70,7 +70,7 @@ After starting the server, visit:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 lu-library-system-api/
@@ -83,7 +83,7 @@ lu-library-system-api/
 
 ---
 
-## 🌍 SDG Alignment
+##  SDG Alignment
 
 Aligned with **SDG 4 – Quality Education**: the system removes barriers to library access by enabling students and staff to manage resources digitally, reducing wasted time and improving access to educational materials for all.
 
