@@ -1,1 +1,111 @@
-# Tommy-OOP
+# 📚 LU Sierra Leone Library System API
+
+**PROG315 – Object-Oriented Programming 2**  
+**Assignment:** Basic API Structure with Open-Source  
+**Institution:** Limkokwing University of Creative Technology – Sierra Leone  
+**Semester:** 04 | March 2026 – July 2026
+
+---
+
+## 📌 Project Description
+
+A RESTful Library Management API built with **Python FastAPI** for Limkokwing University Sierra Leone. The system manages the full book lifecycle — from cataloguing new arrivals to tracking loans, returns, and overdue penalties — while supporting multiple concurrent users through asynchronous request handling.
+
+---
+
+## ✨ Features
+
+- 📚 Browse the full book catalogue with genre and availability filters
+- ➕ Add new books to the catalogue (staff use)
+- 🔖 Issue book loans with automatic 14-day due dates
+- 🔄 Process returns with automatic penalty calculation ($0.75/day)
+- 💰 Generate outstanding fines report for administrators
+- ⚡ Asynchronous request handling for concurrent user support
+- ✅ Strict type validation using Pydantic models
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Role |
+|------------|------|
+| Python 3.11+ | Core programming language |
+| FastAPI | Web API framework |
+| Uvicorn | ASGI server |
+| Pydantic v2 | Data validation & type enforcement |
+| Asyncio | Concurrency model |
+
+---
+
+## ⚙️ Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/YOUR_USERNAME/lu-library-system-api.git
+cd lu-library-system-api
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Start the server
+uvicorn main:app --reload
+```
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/catalogue` | Browse all books (filter by genre / availability) |
+| POST | `/catalogue` | Add a new book to the catalogue |
+| POST | `/loans` | Issue a book loan to a member |
+| PATCH | `/loans/{loan_id}/return` | Process a book return |
+| GET | `/fines` | View all outstanding overdue fines |
+
+---
+
+## 📖 Interactive Docs
+
+After starting the server, visit:
+
+- **Swagger UI:** http://localhost:8000/docs
+- **ReDoc:** http://localhost:8000/redoc
+
+---
+
+## 📁 Project Structure
+
+```
+lu-library-system-api/
+│
+├── main.py              # FastAPI app — all endpoints + async simulation
+├── requirements.txt     # Dependencies
+├── README.md            # Project documentation
+└── .gitignore           # Excludes venv, cache, secrets
+```
+
+---
+
+## 🌍 SDG Alignment
+
+Aligned with **SDG 4 – Quality Education**: the system removes barriers to library access by enabling students and staff to manage resources digitally, reducing wasted time and improving access to educational materials for all.
+
+---
+
+## 👤 Author
+
+- **Student Name:** [FRIEND'S FULL NAME]  
+- **Student ID:** [FRIEND'S STUDENT ID]  
+- **Email:** [friend.email@limkokwing.edu.sl]  
+- **GitHub:** https://github.com/YOUR_USERNAME
+
+---
+
+## 📄 License
+
+Open-source under the [MIT License](LICENSE).
