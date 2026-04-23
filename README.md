@@ -1,11 +1,3 @@
-# 📚 LU Sierra Leone Library System API
-
-**PROG315 – Object-Oriented Programming 2**  
-**Assignment:** Basic API Structure with Open-Source  
-**Institution:** Limkokwing University of Creative Technology – Sierra Leone  
-**Semester:** 04 | March 2026 – July 2026
-
----
 
 ## 📌 Project Description
 
@@ -97,15 +89,5 @@ Aligned with **SDG 4 – Quality Education**: the system removes barriers to lib
 
 ---
 
-## 👤 Author
 
-- **Student Name:** [FRIEND'S FULL NAME]  
-- **Student ID:** [FRIEND'S STUDENT ID]  
-- **Email:** [friend.email@limkokwing.edu.sl]  
-- **GitHub:** https://github.com/YOUR_USERNAME
 
----
-
-## 📄 License
-
-Open-source under the [MIT License](LICENSE).
